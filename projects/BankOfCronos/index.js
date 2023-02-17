@@ -51,6 +51,6 @@ module.exports = {
     tvl,
   },
   methodology:
-    "CDP collateral value + treasury mv",
+    "Treasury total token market value",
 };
 
