@@ -39,7 +39,7 @@ async function tvl(_, _block, chainBlocks) {
   const totalusdc = usdctreasuryTvl
 
   return  {
-    ["cronos:0xF2001B145b43032AAF5Ee2884e456CCd805F677D"]: totalcusd,
+    ["cronos:0x26043Aaa4D982BeEd7750e2D424547F5D76951d4"]: totalcusd,
     ["cronos:0xc21223249CA28397B4B6541dfFaEcC539BfF0c59"]: totalusdc
   }
 }
@@ -51,6 +51,6 @@ module.exports = {
     tvl,
   },
   methodology:
-    "CDP collateral value + treasury mv",
+    "Total market value of tokens in BOC treasury",
 };
 
